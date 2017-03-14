@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kushubham.com.easevoice.SpeechRecognize">
+    <item
+        android:id="@+id/action_easevoice"
+        android:orderInCategory="100"
+        android:title="@string/action_easevoice"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_developer"
+        android:orderInCategory="10"
+        android:title="@string/action_developer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_instructions"
+        android:title="@string/action_instructions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_easechat"
+        android:title="@string/action_easechat"
+        app:showAsAction="never"
+        android:orderInCategory="1000"/>
+</menu>

@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_id": "default-demo-app-d8a94",
+    "project_number": "885239002202",
+    "name": "Default Demo App"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885239002202:android:27d689d63f1b7a06",
+        "client_id": "android:com.google.samples.quickstart.signin",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.google.samples.quickstart.signin",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885239002202-gbm8vfatvktbaht44ojbql4aoss7oqd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.samples.quickstart.signin",
+            "certificate_hash": "EA7A2BBCA7318B4F9170C7BED85298B745629FBF"
+          }
+        },
+        {
+          "client_id": "885239002202-b1p9tbe1ng7f05h58aedhnjvdhtel0qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885239002202:android:ad95fd39e7f9be10",
+        "client_id": "android:kushubham.com.easevoice",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "kushubham.com.easevoice",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885239002202-0oa0hea1ktqkvvj8ihmb42kkkaccqjk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kushubham.com.easevoice",
+            "certificate_hash": "EA7A2BBCA7318B4F9170C7BED85298B745629FBF"
+          }
+        },
+        {
+          "client_id": "885239002202-b1p9tbe1ng7f05h58aedhnjvdhtel0qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

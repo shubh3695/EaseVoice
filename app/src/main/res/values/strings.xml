@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EaseVoice</string>
+    <string name="google_app_id">885239002202</string>
+    <string name="action_easevoice">About Easevoice</string>
+    <string name="action_developer">About Developer</string>
+    <string name="action_instructions">Instructions</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_easechat">EaseChat</string>
+    <string name="btSpeak">speak</string>
+<string name="instructions">Instructions</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_testing">testing</string>
+    <string name="title_activity_estgfbg">estgfbg</string>
+    <string name="title_activity_client_login">ClientLogin</string>
+    <string name="title_activity_maps_activity_class">Map</string>
+</resources>

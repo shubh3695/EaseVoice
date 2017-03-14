@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0FA58">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Wait.."
+        android:id="@+id/lat"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        android:textSize="22sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Wait.."
+        android:textColor="#FF000000"
+        android:id="@+id/llong"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="265dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed: 0.00"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:id="@+id/speed"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/speaking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_dialog_map"
+        android:layout_alignTop="@+id/backbutton"
+        android:layout_marginLeft="20dp" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="BackClick"
+        android:src="@android:drawable/ic_menu_revert"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="160dp"
+        android:src="@drawable/gps1"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+</RelativeLayout>

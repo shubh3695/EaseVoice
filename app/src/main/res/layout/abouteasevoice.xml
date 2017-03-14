@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0FA58">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/easelogo"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bgbg"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:typeface="sans"
+        android:textSize="24sp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/easetext"
+        android:padding="10dp"
+        android:layout_alignLeft="@+id/easelogo"
+        android:layout_alignStart="@+id/easelogo"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

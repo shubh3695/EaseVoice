@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0FA58">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client"
+        android:id="@+id/clientt"
+         android:src="@drawable/client"
+        android:layout_above="@+id/srvrr"
+        android:layout_alignLeft="@+id/srvrr"
+        android:layout_alignStart="@+id/srvrr"
+        android:layout_marginBottom="94dp"
+        android:background="#000000"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server"
+        android:src="@drawable/server"
+        android:id="@+id/srvrr"
+        android:background="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to EaseChat"
+        android:id="@+id/textView7"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/backchoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_revert"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:onClick="BackClick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
